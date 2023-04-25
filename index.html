@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/jquery-1.11.3.js"></script>
+    <script src="./script/jquery.innerfade.js"></script>
+    <script>
+        $(function(){
+            $(".inner-fade").innerfade({
+                animationtype:"fade",
+                timeout:2000 // 2초
+            })
+        });
+
+    </script>
+    <title> logo </title>
+</head>
+<body>
+    <div class="slide">
+        <ul class="inner-fade">
+            <li>
+                <a href="#">
+                    <img src="./images/logo1.svg" alt="logo1">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/logo2.svg" alt="logo2">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/logo3.svg" alt="logo3">
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
